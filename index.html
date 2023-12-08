@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dope Billa</title>
+</head>
+<body>
+    <header>
+             <div class="container">
+                <nav>
+                    <div class="logo">
+                         DOPE BILLA
+                    </div>
+                    <div class="nav-links">
+                        <a href="#">Home</a>
+                        <a href="#products">Products</a>
+                        <a href="#footer">About us </a>
+                        <a href="#">Contact us</a>
+                        <a href="#"><img src="img/cart.png" alt="Cart"></a>
+                    </div>
+                    <div class="ham">
+                        <span class="hamline"></span>
+                        <span class="hamline"></span>
+                        <span class="hamline"></span>
+                    </div>
+                </nav>
+                <div class="hcontent">
+                    <div class="hinfo">
+                        <div class="line"></div>
+                        <h3>Best Quality Products</h3>
+                        <h2>We have best quality of clothing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ullam molestiae numquam laboriosam laudantium beatae nihil sint a, ex corporis libero cupiditate natus incidunt temporibus deleniti quod, ut facilis alias.</p>
+                        <button class="ctn">Get Started &#8594;</button>
+                    </div>
+                    <div class="himg">
+                        <img src="img/main.png" alt="">
+                    </div>
+                </div>
+             </div>
+    </header>
+    <section class="container" id="cats">
+        <div class="cat">
+            <img src="img/fashion-1.png" alt="">
+            <div class="ccontent">
+                <p>Most Loved Design</p>
+                <h3>Women Fashion</h3>
+            </div>
+        </div>
+        <div class="cat cat2">
+            <div class="ccontent">
+                <p>Design of the Week</p>
+                <h3>Mens Jacket & cap</h3>
+            </div>
+            <img src="img/fashion-2.png" alt="">
+        </div>
+        <div class="cat cat3">
+            <img src="img/fashion-3.png" alt="">
+            <div class="ccontent">
+                <p>Most Loved Design</p>
+                <h3>Women Fashion</h3>
+            </div>
+        </div>
+    </section>
+
+<section class="container" id="fproducts" name="products">
+    <h2>Our Featured Products</h2>
+    <div class="line"></div>
+    <div class="products">
+        <div class="fp">
+            <img src="img/product-1.png" alt="">
+            <div class="fpinfo">
+                <p>Mens Cargo</p>
+                <h3>Semi formal outfit combo </h3>
+                <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
+                <p>Price: &#8377;500</p>
+
+            </div>
+        </div>
+        <div class="fp">
+            <img src="img/product-2.png" alt="">
+            <div class="fpinfo">
+                <p>Mens Demin</p>
+                <h3>Semi formal outfit combo </h3>
+                <p>&#9733 &#9733 &#9734 &#9734 &#9734</p>
+                <p>Price: &#8377;700</p>
+
+            </div>
+        </div>
+        <div class="fp">
+            <img src="img/product-3.png" alt="">
+            <div class="fpinfo">
+                <p>Women Casul</p>
+                <h3>Semi formal outfit combo </h3>
+                <p>&#9733 &#9733 &#9733 &#9734 &#9734</p>
+                <p>Price: &#8377;450</p>
+
+            </div>
+        </div>
+        <div class="fp">
+            <img src="img/product-1.png" alt="">
+            <div class="fpinfo">
+                <p>Mens Combo</p>
+                <h3>Semi formal outfit combo </h3>
+                <p>&#9733 &#9733 &#9733 &#9733 &#9733</p>
+                <p>Price: &#8377;750</p>    
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="offer container">
+    <img src="img/offer.png" alt="">
+    <div class="oinfo">
+        <div class="line"></div>
+        <h2>HURRY UP!</h2>
+        <h2>Deal of the day!</h2>
+        <p>Buy this T-shirt At 20% off, use code: BHAGWANKENAAMPE</p>
+        <a href="#"><button>Shop Now &#8594 </button></a>
+    </div>
+</section>
+
+<section class="featured container">
+    <img src="img/featured-1.png" alt="">
+    <img src="img/featured-2.png" alt="">
+    <img src="img/featured-3.png" alt="">
+    <img src="img/featured-4.png" alt="">
+</section>
+
+<footer>
+    <div class="ftcontent container">
+        <div class="col">
+            <div class="logo">
+                DOPE BILLA
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="col">
+            <h3>Company</h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Products</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Bussiness</h3>
+            <ul>
+                <li>Project</li>
+                <li>Afflilate</li>
+                <li>Our Team</li>
+                <li>Costumers</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Get In Touch</h3>
+            <ul>
+                <li><Address>India</Address></li>
+                <li>Phone No.</li>
+                <li>Email</li>
+                <li>Website</li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; Dopegfx</p>
+    </div>
+</footer>
+<script>
+    const ham = document.querySelector('.ham');
+    const navLinks = document.querySelector('.nav-links');
+    
+    ham.addEventListener('click', ()=> {
+        navLinks.classList.toggle('activ');
+        
+    })
+
+
+</script>
+
+</body>
+</html>
